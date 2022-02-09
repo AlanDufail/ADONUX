@@ -1,0 +1,19 @@
+{
+  "name": "ux",
+  "version": "1.0.0",
+  "description": "UX_dev_site",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}

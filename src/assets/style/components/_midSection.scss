@@ -1,0 +1,24 @@
+$maxViewportSize: 750;
+$minViewportSize: 320;
+
+.mid {
+  width: 90%;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  h2 {
+    @include flex($jc:flex-start,$gap: 20px);
+    font-size:6vw;
+  }
+  & &-figure {
+    &__svg {
+      width: 100%;
+    }
+    &__caption {
+        font-family: "Manrope";
+        color: $white;
+        text-align: center;
+    }
+  }
+}

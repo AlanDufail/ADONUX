@@ -16,10 +16,11 @@
             text-align: center;
         }
         &__btn {
+            margin-left: auto;
             padding: 4vw 4vw;
-            border: 1px solid $dark-navy;
+            border: 2px solid $dark-navy;
             border-radius: 1000px;
-            background-color: $dark-navy;
+            background-color: transparent;
             font-size: 4vw;
             font-family: "Manrope";
             font-weight: 600;

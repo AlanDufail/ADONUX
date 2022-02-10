@@ -172,10 +172,11 @@ h4 {
 }
 
 .bot .bot-container__btn {
+  margin-left: auto;
   padding: 4vw 4vw;
-  border: 1px solid #495567;
+  border: 2px solid #495567;
   border-radius: 1000px;
-  background-color: #495567;
+  background-color: transparent;
   font-size: 4vw;
   font-family: "Manrope";
   font-weight: 600;
@@ -228,6 +229,12 @@ p:nth-of-type(1) {
   font-family: "Manrope";
   font-size: 30px;
   margin-right: 2%;
+  position: relative;
+}
+
+.paraph {
+  font-family: "Manrope";
+  font-size: 15px;
   position: relative;
 }
 

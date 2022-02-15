@@ -1,0 +1,25 @@
+.slides{
+    scroll-snap-type: x mandatory;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    & &__img1{
+        background-image: url("../image/Slider1.jpg");
+    }
+    & &__img2{
+        background-image: url("../image/Slider2.jpg");
+    }
+    & &__img3{
+        background-image: url("../image/Slider3.jpg");
+    }
+}
+
+.slider{
+    height: 40vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: start;
+}
+

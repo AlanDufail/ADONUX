@@ -12,6 +12,7 @@
   align-items: center;
   & &-figure {
     margin-top: auto;
+    margin-bottom: auto;
     width: 100%;
     @include flex($dir: row, $fw: nowrap, $jc: center, $ai: center, $gap: 30px);
 
@@ -23,18 +24,8 @@
       transform: rotate(180deg);
     }
   }
-
-  h2 {
-    @include flex(
-      $dir: row,
-      $fw: nowrap,
-      $jc: center,
-      $ai: flex-end,
-      $gap: 10px
-    );
+  & &-slogan{
     margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 60%;
-    font-family: "Manrope";
   }
+
 }

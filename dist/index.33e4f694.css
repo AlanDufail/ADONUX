@@ -91,6 +91,7 @@ h4 {
 
 .top .top-figure {
   margin-top: auto;
+  margin-bottom: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -109,35 +110,26 @@ h4 {
   transform: rotate(180deg);
 }
 
-.top h2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 10px;
+.top .top-slogan {
   margin-top: auto;
-  margin-bottom: auto;
-  padding-top: 60%;
-  font-family: "Manrope";
 }
 
 .mid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
   width: 90%;
   margin-top: 20%;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
 }
 
 .mid h2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
   font-size: 6vw;
+  text-align: center;
 }
 
 .mid .mid-figure__svg {
@@ -156,12 +148,16 @@ h4 {
   background-image: url("home_1.962ae50f.jpg");
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
 }
 
 .bot .bot-container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   padding-top: 20%;
 }
 
@@ -172,7 +168,6 @@ h4 {
 }
 
 .bot .bot-container__btn {
-  margin-left: auto;
   padding: 4vw 4vw;
   border: 2px solid #495567;
   border-radius: 1000px;
@@ -183,6 +178,56 @@ h4 {
   color: #ffff;
   text-align: center;
   cursor: pointer;
+}
+
+.bot .bot-container__btn:hover {
+  border: 2px solid #ffcb3d;
+}
+
+.bot .bot-container__img {
+  width: 25px;
+  height: 25px;
+}
+
+.bot .bot-container__footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bot .bot-container__footer h3 {
+  font-size: 5vw;
+  font-weight: 400;
+}
+
+.slides {
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.slides .slides__img1 {
+  background-image: url("Slider1.9caaeae5.jpg");
+}
+
+.slides .slides__img2 {
+  background-image: url("Slider2.83d7726b.jpg");
+}
+
+.slides .slides__img3 {
+  background-image: url("Slider3.1701dbfb.jpg");
+}
+
+.slider {
+  height: 40vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-snap-align: start;
 }
 
 :root {
@@ -420,5 +465,78 @@ p:nth-of-type(1) {
 
 .wave span:nth-child(14) {
   animation-delay: 0.65s;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  animation: 10s forwards infinite;
+  font-family: "Manrope";
+  color: #ffff;
+}
+
+.slogan .text-box div {
+  transform: rotateX(-90deg);
+  opacity: 0;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  animation-timing-function: ease;
+}
+
+.slogan .text-box div:nth-child(1) {
+  animation: rollDown 10s forwards infinite;
+}
+
+.slogan .text-box div:nth-child(2) {
+  animation: rollDown2 10s forwards infinite;
+}
+
+@keyframes rollDown {
+  0% {
+    top: -200px;
+    transform: rotateX(-90deg);
+  }
+  11% {
+    top: -74px;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  22% {
+    top: -74px;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  33% {
+    top: 50px;
+    transform: rotateX(30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rollDown2 {
+  33% {
+    top: -200px;
+    transform: rotateX(-90deg);
+  }
+  44% {
+    top: -74px;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  55% {
+    top: -74px;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  66% {
+    top: 50px;
+    transform: rotateX(30deg);
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=index.33e4f694.css.map */

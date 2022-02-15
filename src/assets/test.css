@@ -1,0 +1,31 @@
+/* Hide the scroll bars */
+
+  
+  .slides {
+    scroll-snap-type: x mandatory;
+    display: flex;
+    overflow-x: scroll;
+    /*   width: 500px; */
+    /*   height: 300px; */
+  }
+  
+  div {
+    height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: start;
+  }
+  
+  .section-1 {
+    background-image: url("https://images.unsplash.com/photo-1478104718532-efe04cc3ff7f");
+  }
+  
+  .section-2 {
+    background-image: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434");
+  }
+  
+  .section-3 {
+    background-image: url("https://images.unsplash.com/photo-1572985025058-f27aeca1b8bf");
+  }
+  

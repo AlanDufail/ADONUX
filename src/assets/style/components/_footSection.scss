@@ -4,11 +4,10 @@
     background-image:url(../image/home_1.jpg);
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
 
     & &-container {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        @include flex($dir:column,$jc:center,$ai:center,$gap:20px);
         padding-top: 20%;
         h2{
             color:  $light-grey;
@@ -16,17 +15,33 @@
             text-align: center;
         }
         &__btn {
-            margin-left: auto;
             padding: 4vw 4vw;
             border: 2px solid $dark-navy;
             border-radius: 1000px;
             background-color: transparent;
             font-size: 4vw;
-             font-family: "Manrope";
+            font-family: "Manrope";
             font-weight: 600;
             color: $white;
             text-align: center;
             cursor: pointer;
+            &:hover{
+                border: 2px solid $light-yellow;
+            }
+        }
+        &__img{
+            width: 25px;
+            height: 25px;
+        }
+        &__footer{
+            @include flex($dir:row,$jc:center,$ai:center,$gap:20px);
+
+            h3{
+                font-size:5vw;
+                font-weight: 400;
+
+            }
+
         }
     }
 

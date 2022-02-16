@@ -1,6 +1,6 @@
-setTimeout(function () {
-  document.getElementById("loading-page").className += "loaded";
-  document.getElementById("loader").className += "opzero";
-  document.getElementById("lastray").className += " finalray";
-  document.body.className += "whitebk";
-}, 6500);
+var random = Math.floor(Math.random() * 2000) + 2000;
+$(document).ready(function () {
+  setTimeout(function () {
+    $("body").addClass("loaded");
+  }, random);
+});

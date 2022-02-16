@@ -1,222 +1,139 @@
-#lastray {
-  margin: auto;
-  border-radius: 100%;
-  border: 0px solid;
-  border-color: $loader-ray-color;
-  opacity: 1;
-  width: 0px;
-  height: 0px;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-}
-#loading-page {
-  background: $loader-back-color;
-  border-radius: 100%;
-  top: 50%;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 400vh;
-  height: 400vh;
+#pre-loader {
   position: fixed;
-  overflow: hidden;
-  transition-duration: 1s;
-}
-#loader {
-  margin: auto;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  max-width: 200px;
-  position: absolute;
-  max-height: 200px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-}
-.element {
-  margin: auto;
-  position: absolute;
-}
-.sphere {
-  background: radial-gradient(circle, $loader-color, $loader-color-dark);
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  animation: pump 4s infinite ease-in-out;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-  box-shadow: 0px 0px 15px 0px rgba(200, 230, 255, 0.5);
-}
-.ray {
-  margin: auto;
-  border-radius: 100%;
-  border: 5px solid;
-  border-color: $loader-ray-color;
-  opacity: 1;
-  width: 10px;
-  height: 10px;
-  animation: ray 4s infinite ease-out;
-  animation-delay: 2.5s;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-  box-shadow: 0px 0px 15px 0px rgba(255, 230, 200, 0.5);
-}
-.spark {
-  width: 200px;
-  height: 200px;
-}
-.particles {
-  transform: translate(-50%, -50%);
-}
-.particle {
-  background-color: $loader-spark-color;
-  width: 5px;
-  height: 5px;
-  border-radius: 100%;
-  opacity: 0;
-  animation: particle 1s infinite ease-in;
-  left: 0%;
-  top: 0%;
-}
-.spark1 {
-  transform: rotate(20deg);
-}
-.spark2 {
-  transform: rotate(40deg);
-}
-.spark3 {
-  transform: rotate(66deg);
-}
-.spark4 {
-  transform: rotate(172deg);
-}
-.spark5 {
-  transform: rotate(110deg);
-}
-.spark6 {
-  transform: rotate(130deg);
-}
-.spark7 {
-  transform: rotate(-100deg);
-}
-.spark8 {
-  transform: rotate(-50deg);
-}
-.spark9 {
-  transform: rotate(-80deg);
-}
-.spark10 {
-  transform: rotate(-173deg);
-}
-.spark11 {
-  transform: rotate(-7deg);
-}
-.spark12 {
-  transform: rotate(-133deg);
+  z-index: 1000;
 }
 
-.particle1 {
-  animation-delay: 0.5s;
+#pre-loader .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  z-index: 1000;
+  background: $loader-color;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
-.particle2 {
-  animation-delay: 0s;
+#pre-loader .loader-section.section-left {
+  left: 0;
 }
-.particle3 {
-  animation-delay: 2.2s;
-}
-.particle4 {
-  animation-delay: 0.2s;
-}
-.particle5 {
-  animation-delay: 2s;
-}
-.particle6 {
-  animation-delay: 1.2s;
-}
-.particle7 {
-  animation-delay: 2.5s;
-}
-.particle8 {
-  animation-delay: 1.5s;
-}
-.particle9 {
-  animation-delay: 1s;
-}
-.particle10 {
-  animation-delay: 2.5s;
-}
-.particle11 {
-  animation-delay: 0.7s;
-}
-.particle12 {
-  animation-delay: 1.7s;
+#pre-loader .loader-section.section-right {
+  right: 0;
 }
 
-.loaded {
-  width: 0px !important;
-  height: 0px !important;
-  transition: 1.2s ease-out;
+#loader-logo {
+  display: block;
+  position: relative;
+  left: calc(50% - 20em / 2);
+  top: 15%;
+  width: 20em;
+  height: 9.375em;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1001;
 }
-.whitebk {
-  background: #fff !important;
+
+#loader-circle {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 35%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  z-index: 1001;
 }
-.opzero {
+#loader-circle:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+#loader-circle:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+.loaded #pre-loader .loader-section.section-left {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.loaded #pre-loader .loader-section.section-right {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.loaded #loader-logo,
+.loaded #loader-circle {
   opacity: 0;
-  transition: 1s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
-.finalray {
-  animation: ray 2s ease-out;
-  animation-delay: 0.3s;
-  border: 1px solid;
+.loaded #pre-loader {
+  visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: all 0.3s 1s ease-out;
+  transition: all 0.3s 1s ease-out;
 }
-/*ANIMATIONS*/
-@keyframes pump {
-  0% {
-    width: 50px;
-    height: 50px;
-  }
-  83% {
-    width: 88px;
-    height: 88px;
-  }
-  85% {
-    width: 90px;
-    height: 90px;
-  }
-  100% {
-    width: 50px;
-    height: 50px;
-  }
-}
-@keyframes ray {
-  0% {
-    width: 10px;
-    height: 10px;
-    opacity: 1;
-    border-width: 1px;
-  }
-  100% {
-    width: 200px;
-    height: 200px;
-    opacity: 0;
-    border-width: 5px;
-  }
-}
-@keyframes particle {
-  0% {
-    left: 0%;
-    top: 0%;
-    opacity: 0;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    left: 50%;
-    top: 50%;
-    opacity: 1;
-  }
+
+.no-js #pre-loader {
+  display: none;
 }

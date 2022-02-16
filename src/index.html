@@ -24,6 +24,12 @@
   </head>
 
   <body>
+    <div id="pre-loader">
+      <div id="loader-logo"></div>
+      <div id="loader-circle"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
     <main>
       <header></header>
       <section class="top">
@@ -255,5 +261,15 @@
       <div></div>
       <div class="footer-logo"></div>
     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      var random = Math.floor(Math.random() * 2000) + 2000;
+      $(document).ready(function () {
+        setTimeout(function () {
+          $("body").addClass("loaded");
+        }, random);
+      });
+    </script>
   </body>
 </html>

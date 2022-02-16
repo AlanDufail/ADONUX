@@ -1,5 +1,5 @@
 12848
-58C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist132894108408368161 1
+58C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist132894776308341498 1
 82C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\chalk\readme.md121436361000000000 0
 99C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\yaml\dist\resolveSeq-d03cb037.js121436361000000000 0
 108C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\internals\engine-is-ios-pebble.js121436361000000000 0
@@ -96,7 +96,7 @@
 117C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT121436361000000000 0
 117C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\lmdb\prebuilds\linux-x64\electron.abi99.glibc.node121436361000000000 0
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\@parcel\events\test\Disposable.test.js121436361000000000 0
-68C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\index.html132894091248032339 0
+68C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\index.html132894145747785005 0
 98C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\crypto-browserify\test\index.js131541096560000000 0
 106C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\terser\node_modules\commander\Readme.md121436361000000000 0
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2016\GetOwnPropertyKeys.js121436361000000000 0
@@ -193,7 +193,7 @@
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\math\trunc.js121436361000000000 0
 102C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\caniuse-lite\data\features\http2.js121436361000000000 0
 86C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\hash.js\lib\hash.js121436361000000000 0
-98C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\assets\style\components\_topSection.scss132894103569969604 0
+98C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\assets\style\components\_topSection.scss132894120768684840 0
 101C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\internals\try-to-string.js121436361000000000 0
 100C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\features\string\substr.js121436361000000000 0
 89C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\postcss-reduce-initial132887892068461874 1
@@ -266,7 +266,7 @@
 90C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\assets\style\general\_reset.scss132894053573145223 0
 99C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\@parcel\graph\test\Graph.test.js121436361000000000 0
 99C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\es\string\virtual\sup.js121436361000000000 0
-98C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\assets\style\components\_animations.scss132894113243787930 0
+98C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\assets\style\components\_animations.scss132894776277388284 0
 94C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\src\assets\style\general\_variables.scss132893901716207767 0
 97C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\svgo\plugins\preset-default.js121436361000000000 0
 108C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\postcss-convert-values\src\lib\convert.js121436361000000000 0
@@ -2638,7 +2638,7 @@
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\@babel\traverse\lib\path\conversion.js121012626000000000 0
 89C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\supports-color\license121436361000000000 0
 83C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\lowlight\license121436361000000000 0
-69C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\index.html132894091260160103 0
+69C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\index.html132894736601597588 0
 84C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\globals\readme.md121436361000000000 0
 99C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\actual\array\flat-map.js121436361000000000 0
 99C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\public-encrypt\test\rsa.pass.pub121436361000000000 0
@@ -3980,7 +3980,7 @@
 87C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\randomfill\.zuul.yml131456529890000000 0
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\hash-base\node_modules\readable-stream132887892049841617 1
 101C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\features\object\has-own.js121436361000000000 0
-79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Slider1.9caaeae5.jpg132894062440438709 0
+79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Slider1.9caaeae5.jpg132894736603994263 0
 112C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2016\CreateDataPropertyOrThrow.js121436361000000000 0
 93C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\postcss-calc\src\parser.js121436361000000000 0
 88C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\randomfill\browser.js131528156600000000 0
@@ -5324,7 +5324,7 @@
 102C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\highlight.js\lib\languages\crmsh.js121436361000000000 0
 88C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\nan\doc\converters.md131359036360000000 0
 112C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\css-tree\lib\syntax\node\AttributeSelector.js121436361000000000 0
-76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid3.89be546b.svg132894062441665474 0
+76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid3.89be546b.svg132894736601597588 0
 82C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\nan\doc\json.md132725664060000000 0
 85C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\nan\doc\methods.md132319691430000000 0
 113C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2021\CompletePropertyDescriptor.js121436361000000000 0
@@ -7054,7 +7054,7 @@
 86C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\format\package.json132887892104151665 0
 110C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\diffie-hellman\node_modules\bn.js\README.md121436361000000000 0
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2015\ToString.js121436361000000000 0
-77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\TOPbg.0a8ec1af.jpg132894062439940032 0
+77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\TOPbg.0a8ec1af.jpg132894736599747923 0
 83C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\format\Readme.md130580565300000000 0
 88C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\format\test_format.js130854524920000000 0
 100C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\features\instance\with.js121436361000000000 0
@@ -8230,7 +8230,7 @@
 100C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2016\IteratorValue.js121436361000000000 0
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\@parcel\packager-js\src\DevPackager.js121436361000000000 0
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2016\MakeDate.js121436361000000000 0
-78C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\home_1.962ae50f.jpg132894062440009860 0
+78C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\home_1.962ae50f.jpg132894736599926967 0
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\internals\engine-v8-version.js121436361000000000 0
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\es-abstract\2016\MakeTime.js121436361000000000 0
 63C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\.cache\11132894042319184797 1
@@ -8527,7 +8527,7 @@
 97C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\domain-browser\source\index.js121436361000000000 0
 82C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\detect-libc\bin132887891444286196 1
 101C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\domain-browser\.github\FUNDING.yml121436361000000000 0
-76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\logo.1864c286.svg132894062441665474 0
+76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\logo.1864c286.svg132894736601597588 0
 104C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\domain-browser\.dependabot\config.yml121436361000000000 0
 85C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\dom-serializer\lib132887891427002357 1
 94C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\actual\string\at.js121436361000000000 0
@@ -8614,7 +8614,7 @@
 113C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\caniuse-lite\data\features\speech-synthesis.js121436361000000000 0
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\csso\lib\restructure\prepare132887891321224908 1
 96C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\csso\lib\restructure\utils.js121436361000000000 0
-81C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\index.33e4f694.css.map132894108407919367 0
+81C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\index.33e4f694.css.map132894776308082185 0
 104C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\csso\lib\restructure\prepare\index.js121436361000000000 0
 114C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\csso\lib\restructure\prepare\processSelector.js121436361000000000 0
 110C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\csso\lib\restructure\prepare\specificity.js121436361000000000 0
@@ -8971,7 +8971,7 @@
 98C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\@babel\helper-simple-access\lib132887891086112946 1
 101C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\typed-array\from.js121436361000000000 0
 105C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\typed-array\includes.js121436361000000000 0
-77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\index.33e4f694.css132894108406174003 0
+77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\index.33e4f694.css132894776307733109 0
 108C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\typed-array\int16-array.js121436361000000000 0
 113C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\@babel\helper-environment-visitor\package.json132887892048884172 0
 108C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\typed-array\int32-array.js121436361000000000 0
@@ -9163,7 +9163,7 @@
 97C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\array\concat.js121436361000000000 0
 96C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\array\every.js121436361000000000 0
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\array\fill.js121436361000000000 0
-79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\AFTicon.e9e3bea4.svg132894062441675428 0
+79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\AFTicon.e9e3bea4.svg132894736601597588 0
 97C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\array\filter.js121436361000000000 0
 95C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\array\find.js121436361000000000 0
 99C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\stable\array\for-each.js121436361000000000 0
@@ -9442,7 +9442,7 @@
 63C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\.cache\e1132894042360983140 1
 100C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\es\object\from-entries.js121436361000000000 0
 101C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\modules\esnext.set.from.js121436361000000000 0
-76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid4.d4df6f4a.svg132894062441665474 0
+76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid4.d4df6f4a.svg132894736601597588 0
 119C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\caniuse-lite\data\features\document-currentscript.js121436361000000000 0
 109C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\core-js\modules\esnext.set.intersection.js121436361000000000 0
 112C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\caniuse-lite\data\features\promise-finally.js121436361000000000 0
@@ -12713,19 +12713,19 @@
 80C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\.bin\svgo.ps1132887892120311697 0
 82C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\.bin\terser.ps1132887892120625801 0
 77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\node_modules\.bin\which132887892121836954 0
-77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\9dots.2bb8110e.svg132894062441665474 0
+77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\9dots.2bb8110e.svg132894736601597588 0
 77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\ADONUX.59712999.js132890445872515256 0
 82C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\bg_footer.504fb8b5.jpeg132888932395884814 0
 82C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\down-arrow.554d41d3.svg132890445873971266 0
 63C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\.cache\01132894042318117647 1
-76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid1.c0c6af8a.svg132894062441665474 0
-76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid2.92a72f65.svg132894062441665474 0
+76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid1.c0c6af8a.svg132894736601597588 0
+76C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\mid2.92a72f65.svg132894736601597588 0
 74C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Ps.42bf8181.svg132893916617012327 0
-78C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\PSicon.13389874.svg132894062441675428 0
-79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Slider2.83d7726b.jpg132894062439999880 0
-79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Slider3.1701dbfb.jpg132894062440039770 0
-73C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\UX.59712999.js132894062435174772 0
-77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\UX.59712999.js.map132894062435533825 0
+78C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\PSicon.13389874.svg132894736601597588 0
+79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Slider2.83d7726b.jpg132894736599867269 0
+79C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\Slider3.1701dbfb.jpg132894736599787707 0
+73C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\UX.59712999.js132894736598435254 0
+77C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\dist\UX.59712999.js.map132894736601597588 0
 63C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\.cache\04132894042318267246 1
 63C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\.cache\05132894042318297228 1
 63C:\Users\dufaila\Documents\ADP\1.Session\FRONT_END\UX\.cache\07132894042318357007 1
